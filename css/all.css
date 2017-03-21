@@ -1,0 +1,151 @@
+html{
+	font-family: 微軟正黑體;
+	background-color: #EFE9E7;
+}
+.clear{
+	clear:both;
+}
+.content{
+	width: 1024px;
+	padding: 48px 42px 50px 50px;
+	margin: 0 auto;
+}
+.category{
+	width: 220px;
+	margin: 0px 22px 0px 0px;
+	float: left;
+}
+.category img{
+	width: 26px;
+	height: 32px;
+	margin: 0px 15px 0px 8px;
+}
+.category .listtext{
+	font-size: 20px;
+	color: #3D1101;
+	line-height: 32px;
+}
+.category ul{
+	margin: 0px;
+	padding: 0px;
+}
+.category ul li{
+	list-style-type:none;
+	display: block;
+	border-bottom: 1px #3D1101 solid;
+	font-size: 16px;
+	color: #3D1101;
+	line-height: 32px;
+	padding: 0px 0px 0px 3px;
+}
+.category ul li.actived{
+	background-color: #3D1101;
+	color:#FFFFFF;
+}
+.function{
+	width: 742px;
+	float: left;
+}
+.function .search{
+	width: 424px;
+	height: 28px;
+	border: 2px #3D1101 solid;
+}
+.function .search_icon{
+	height: 32px;
+	width: 36px;
+	background: url(../img/search.png) no-repeat center,#3D1101;
+	padding: 0px;
+	border: 0px;
+}
+.function a{
+	float: right;
+}
+.function a img{
+	height: 29px;
+	width: 27px;
+	background-color: #3D1101;
+	margin-left: 17px;
+}
+.function .buytext{
+	padding-right: 12px;
+	border-right: 1px #3D1101 solid;
+	text-decoration: none;
+	color: #3D1101;
+}
+.console{
+	float: left;
+	margin-top: 26px;
+	width: 720px;
+}
+.boxcontent{
+	position: relative;
+	width: 220px;
+	float: left;
+	margin-right: 20px;
+	background: #EFE9E7;
+	box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+}
+.boxcontent img{
+	width: 220px;
+	height: 120px;
+}
+.boxcontent p{
+	font-size: 20px;
+	color: #3D1101;
+	text-align: center;
+}
+span{
+	font-size: 12px;
+}
+.line{
+	border: 1px #3D1101 solid;
+	width: 91px;
+	margin:8px auto 20px auto;
+}
+.boxcontent .addcart{
+	border: 2px #FF5E45 solid;
+	width: 200px;
+	margin:13px auto 10px auto;
+	color: #FF5E45;
+	border-radius: 3px;
+	text-align: center;
+}
+.addcart img {
+	width: 13px;
+	height: 14px;
+	margin-right: 9px;
+}
+.like{
+ background-image:url(../img/heart.png);
+ height: 20px;
+ width: 23px;
+ position: absolute;
+ top: 9px;
+ left: 9px;
+}
+.liked{
+ background-image:url(../img/heart_actived.png);
+ height: 20px;
+ width: 23px;
+ position: absolute;
+ top: 9px;
+ left: 9px;
+}
+.recommend{
+ background-image:url(../img/recommend.png);
+ width: 90px;
+ height: 90px;
+ position: absolute;
+ top: -17px;
+ right: -17px;
+}
+.recommend p{
+ transform: rotate(-315deg);
+ font-size: 14px;
+ color: white;
+ text-align: center;
+ position: absolute;
+ top: 16px;
+ right: 16px;
+}
